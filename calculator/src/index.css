@@ -5,8 +5,9 @@
   color:white;
   width:300px;
   padding:10px;
-  box-shadow: 5px 5px 5px 5px rgb(22, 22, 22);
+  box-shadow: 5px 5px 5px 5px rgb(114, 113, 113);
   border-radius: 10px;
+  border:2px solid rgb(218, 214, 214);
 }
 .calculate-button{
   margin-left: 50px;
