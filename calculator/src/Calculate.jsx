@@ -19,17 +19,16 @@ function Calculate(){
    
 return (
     <>
-    <div>
+    <div className="calculator-div">
         <h2>Calculator</h2>
         <h2>Standard</h2>
         <p>{calculat}</p>
-        <div>
+        <div className="calculate-button">
             <button onClick={()=>calculation("(")} className="open-brace">(</button>
-            <button onClick={()=>calculation(")")}>)</button>
-            <button onClick={clear}>x</button>
-            <button onClick={()=>calculation("%")}>%</button><br/>
-
-            <button onClick={()=>calculation(7)}>7</button>
+            <button onClick={()=>calculation(")")} className="open-brace">)</button>
+            <button onClick={clear} className="x">x</button>
+            <button onClick={()=>calculation("%")} className="module">%</button><br/>
+            <button onClick={()=>calculation(7)} className="seven">7</button>
             <button onClick={()=>calculation(8)}>8</button>
             <button onClick={()=>calculation(9)}>9</button>
             <button onClick={()=>calculation('*')}>*</button><br/>
